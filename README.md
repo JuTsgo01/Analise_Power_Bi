@@ -4,7 +4,7 @@
 
 ## Para esse projeto foram usadas as seguintes fórmulas dax:
 
-### OBS: Todas as fórmulas foram dormatas no padrão:
+### OBS: Todas as fórmulas foram formatas no padrão:
 
 ```
 Var vValor = SELECTEDMEASURE()
