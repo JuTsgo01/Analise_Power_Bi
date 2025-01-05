@@ -290,9 +290,3 @@ COALESCE(
 ![Planilha de Controle de estoque](./planilha_controle_estoque.png)
 
 ![Imagem do Schema das Tabelas](./Schemas_tabelas.png)
-
-
-
-
-
-
