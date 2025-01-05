@@ -4,6 +4,22 @@
 
 ## Para esse projeto foram usadas as seguintes fórmulas dax:
 
+### OBS: Todas as fórmulas foram dormatas no padrão:
+
+```
+Var vValor = SELECTEDMEASURE()
+
+RETURN
+"""" &
+    SWITCH(
+        TRUE(),
+        ABS(vValor) >= 1E9, FORMAT(vValor / 1E9, "0.00") & " Bi",
+        ABS(vValor) >= 1E6, FORMAT(vValor / 1E6, "0.00") & " Mi",
+        ABS(vValor) >= 1E3, FORMAT(vValor / 1E3, "0.00") & " K",
+        FORMAT(vValor, "0")
+    )
+```
+
 ### 1. Fórmula para calcular a cobertura do estoque:
 
 Calcula a relação entre a quantidade de produtos em estoque e a média de vendas por mês de um produto. Utiliza `COALESCE` para garantir que, se o valor for `nulo`, seja retornado `0`.
