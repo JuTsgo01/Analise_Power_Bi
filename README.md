@@ -1,6 +1,6 @@
 # Dashboard de análise de vendas e estoque de uma empresa de varejo
 
-***(OBS: No fim desse readme, você verá as imagem dos dashboard e do Schema das tabelas)***
+***(OBS: No fim desse readme, você verá as imagem dos dashboards e do Schema das tabelas)***
 
 ## Para esse projeto foram usadas as seguintes fórmulas dax:
 
@@ -261,7 +261,19 @@ COALESCE(
 )
 ```
 
+## Imagens do Dashboard do iniciao fim e do Schema:
 
+![Imagem do dashboard inicial](./Dashboard_inicial.png)
+
+![Principais influenciadores na margem de lucro](./principais_influenciadores.png)
+
+![Árvore de Análise](./Árvore_de_analises.png)
+
+![Planilha de Controle de vendas](./planilha_controle_venda.png)
+
+![Planilha de Controle de estoque](./planilha_controle_estoque.png)
+
+![Imagem do Schema das Tabelas](./Schemas_tabelas.png)
 
 
 
