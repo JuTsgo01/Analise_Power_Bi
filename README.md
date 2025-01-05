@@ -1,5 +1,7 @@
 # Dashboard de análise de vendas e estoque de uma empresa de varejo
 
+***(OBS: No fim desse readme, você verá as imagem dos dashboard e do Schema das tabelas)***
+
 ## Para esse projeto foram usadas as seguintes fórmulas dax:
 
 ### 1. Fórmula para calcular a cobertura do estoque:
